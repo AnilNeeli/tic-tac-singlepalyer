@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+
+body{
+
+    margin:auto;
+    width:350px;
+}
+
+        h1 {
+
+        border-bottom:5px solid black;
+
+}
+
+
+.square{
+  font-size:40pt;
+height:80px;
+        width:80px;
+        text-align:center;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>Tic Tac Toe game</h1>
+<h2 id="turn">The game starts with X</h2>
+<table class="table" border="1">
+    <tr>
+        <td class="square" id="s1" onclick="text(this)"></td>
+        <td class="square"  id="s2" onclick="text(this)"></td>
+        <td class="square" id="s3"onclick="text(this)"></td>
+    </tr>
+    <tr>
+        <td class="square" id="s4"onclick="text(this)"></td>
+        <td class="square" id="s5"onclick="text(this)"></td>
+        <td class="square" id="s6"onclick="text(this)"></td>
+    </tr>
+    <tr>
+        <td class="square" id="s7"onclick="text(this)"></td>
+        <td class="square" id="s8"onclick="text(this)"></td>
+        <td class="square" id="s9"onclick="text(this)"></td>
+    </tr>
+
+
+</table>
+<button onclick="restart()">restart</button>
+<script src="tic.js">
+
+
+</script>
+
+</body>
+</html>
